@@ -95,10 +95,7 @@ img {
 
 /* tablet and up */
 
-@media (min-width: 768px)
-/*and (max-width: 1024px)*/
-
-    {
+@media (min-width: 768px) and (max-width: 1024px) {
     #navbar {
         width: 100%;
         margin-left: -15%;
@@ -125,6 +122,13 @@ img {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   
+    #navbar {
+        width: 100%;
+        margin-left: -15%;
+    }
+    #navbar a {
+        text-align: center;
+    }
     #projects {
         display: grid;
         grid-template-columns: repeat(2, 50%);
@@ -133,6 +137,7 @@ img {
     #welcome-section {
         height: 100vh;
     }
+    
 }
     
-  }
+  
